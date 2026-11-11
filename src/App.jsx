@@ -26,7 +26,7 @@ function App() {
 
     {
       viagens.map( ( viagem ) => (
-        <p key={ viagem.id }> Nome da Viagem { viagem.destino } - R$ { viagem.preco } </p>
+        <p key={ viagem.id }> { viagem.destino } - R$ { viagem.preco } </p>
       ))
     }
 
